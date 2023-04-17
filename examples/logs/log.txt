@@ -1,0 +1,246 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 195
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9965305924415588.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1679
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 195
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9965305924415588.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1679
+INFO:root:Using user-specified mvc config file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/garlic_out/mvc_cfg.yaml
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Formed path for globbing: dylib_path='/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/*.dylib'
+DEBUG:shapely.geos:Globbed: geos_whl_dylib=['/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos.3.10.3.dylib', '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib']
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib', handle 2093fc980 at 0x28ebcb790>, using it.
+INFO:root:OpenGL Version: 4.1 Metal - 76.3
+INFO:root:GLSL: 4.10
+INFO:root:Renderer: Apple M1 Pro
+INFO:root:2 separate polygons found in mask. Using largest.
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:char_runtime_check failed, removing neck from retargeter :('neck', 'above', 'right_shoulder', 'left_shoulder')
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 1.622725009918213 seconds
+INFO:root:Using BVH file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 9.509628057479858 seconds.
+INFO:root:VideoWriter will write to /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:Wrote video to file in in 5.81203293800354 seconds.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 191
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.5507200956344604.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1659
+INFO:root:Using user-specified mvc config file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/pika/mvc_cfg.yaml
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Formed path for globbing: dylib_path='/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/*.dylib'
+DEBUG:shapely.geos:Globbed: geos_whl_dylib=['/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos.3.10.3.dylib', '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib']
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib', handle 205b5c980 at 0x178906ac0>, using it.
+INFO:root:OpenGL Version: 4.1 Metal - 76.3
+INFO:root:GLSL: 4.10
+INFO:root:Renderer: Apple M1 Pro
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 0.4319908618927002 seconds
+INFO:root:Using BVH file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+WARNING:root:point [[0.33730835 0.33901194]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.33730835 0.33901194]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.3713799  0.48040885]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.4003407  0.70017034]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.17546849 0.5349233 ]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.1362862 0.4855196]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.07666099 0.42589438]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.55706984 0.4173765 ]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.548552   0.39693356]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.19591141 0.18057922]] not inside or on edge of any triangle in mesh. Skipping it
+WARNING:root:point [[0.60647357 0.19080068]] not inside or on edge of any triangle in mesh. Skipping it
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/pika/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 7.235856056213379 seconds.
+INFO:root:VideoWriter will write to /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/pika/video.gif
+INFO:root:Wrote video to file in in 5.610448837280273 seconds.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 191
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9991198182106018.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1679
+INFO:root:Using user-specified mvc config file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person/mvc_cfg.yaml
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Formed path for globbing: dylib_path='/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/*.dylib'
+DEBUG:shapely.geos:Globbed: geos_whl_dylib=['/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos.3.10.3.dylib', '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib']
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib', handle 204b04980 at 0x288dd1700>, using it.
+INFO:root:OpenGL Version: 4.1 Metal - 76.3
+INFO:root:GLSL: 4.10
+INFO:root:Renderer: Apple M1 Pro
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 2.057805061340332 seconds
+INFO:root:Using BVH file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 9.797725915908813 seconds.
+INFO:root:VideoWriter will write to /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person/video.gif
+INFO:root:Wrote video to file in in 5.6884989738464355 seconds.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 194
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9988130331039429.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1704
+INFO:root:Using user-specified mvc config file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person2/mvc_cfg.yaml
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Formed path for globbing: dylib_path='/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/*.dylib'
+DEBUG:shapely.geos:Globbed: geos_whl_dylib=['/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos.3.10.3.dylib', '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib']
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib', handle 208d7cb80 at 0x169a084c0>, using it.
+INFO:root:OpenGL Version: 4.1 Metal - 76.3
+INFO:root:GLSL: 4.10
+INFO:root:Renderer: Apple M1 Pro
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 1.59708833694458 seconds
+INFO:root:Using BVH file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person2/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 8.16066288948059 seconds.
+INFO:root:VideoWriter will write to /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person2/video.gif
+INFO:root:Wrote video to file in in 5.629578113555908 seconds.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 194
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9995803236961365.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1424
+INFO:root:Using user-specified mvc config file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person3/mvc_cfg.yaml
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Formed path for globbing: dylib_path='/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/*.dylib'
+DEBUG:shapely.geos:Globbed: geos_whl_dylib=['/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos.3.10.3.dylib', '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib']
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib', handle 205c5cb80 at 0x16fa94100>, using it.
+INFO:root:OpenGL Version: 4.1 Metal - 76.3
+INFO:root:GLSL: 4.10
+INFO:root:Renderer: Apple M1 Pro
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 1.157423973083496 seconds
+INFO:root:Using BVH file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person3/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 7.387876033782959 seconds.
+INFO:root:VideoWriter will write to /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person3/video.gif
+INFO:root:Wrote video to file in in 5.826873779296875 seconds.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 192
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.996513307094574.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1552
+INFO:root:Using user-specified mvc config file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person4/mvc_cfg.yaml
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Formed path for globbing: dylib_path='/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/*.dylib'
+DEBUG:shapely.geos:Globbed: geos_whl_dylib=['/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos.3.10.3.dylib', '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib']
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/venv/lib/python3.8/site-packages/shapely/.dylibs/libgeos_c.1.16.1.dylib', handle 2015e4b80 at 0x1776ff100>, using it.
+INFO:root:OpenGL Version: 4.1 Metal - 76.3
+INFO:root:GLSL: 4.10
+INFO:root:Renderer: Apple M1 Pro
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 1.023129940032959 seconds
+INFO:root:Using BVH file located at /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person4/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 8.0194730758667 seconds.
+INFO:root:VideoWriter will write to /Users/kakao1/Documents/kakao_work_space/git_repository/AnimatedDrawings/examples/person4/video.gif
+INFO:root:Wrote video to file in in 5.8493359088897705 seconds.

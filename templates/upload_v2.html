@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Images</title>
+  </head>
+  <body>
+    <h1>Upload Images</h1>
+    <form method="post" action="upload.php" enctype="multipart/form-data" onsubmit="processing()">
+      <input type="file" name="imagesToUpload[]" id="imagesToUpload" multiple>
+      <br>
+      <input type="submit" value="Upload Images" name="submit">
+    </form>
+
+    <script>
+      function processing() {
+        // Code to process uploaded files goes here
+        // For example, you could use the FormData API to retrieve the uploaded files:
+        var formData = new FormData();
+        var files = document.getElementById('imagesToUpload').files;
+        for (var i = 0; i < files.length; i++) {
+          formData.append('images[]', files[i]);
+        }
+        // Then you could use an AJAX request to send the files to the server for processing:
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'process.php', true);
+        xhr.onload = function() {
+          // Code to handle the response from the server goes here
+        };
+        xhr.send(formData);
+      }
+    </script>
+  </body>
+</html>

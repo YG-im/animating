@@ -1,0 +1,9 @@
+requests-toolbelt
+requests
+pandas
+datetime
+numpy
+Flask
+Flask-Cors
+Flask-API
+flask-restplus
